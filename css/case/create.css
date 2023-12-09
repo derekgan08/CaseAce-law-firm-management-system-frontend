@@ -1,0 +1,327 @@
+.client-avatar {
+  width: 30px;
+  height: 30px;
+  object-fit: cover;
+  border-radius: 50%
+}
+
+.create-new-case1-container {
+    width: 100%;
+    display: flex;
+    overflow: auto;
+    min-height: 100vh;
+    align-items: center;
+    border-color: var(--dl-color-gray-black);
+    border-width: 1px;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .create-new-case1-container01 {
+    height: 909px;
+    display: flex;
+    align-self: flex-end;
+    margin-top: 0px;
+    align-items: flex-start;
+    margin-right: 50px;
+    flex-direction: column;
+  }
+  .create-new-case1-container02 {
+    width: 1340px;
+    height: 924px;
+    display: flex;
+    box-shadow: 5px 5px 10px 0px #d4d4d4;
+    align-items: flex-start;
+    padding-top: 15px;
+    border-color: #d8d8d8;
+    border-width: 1px;
+    padding-left: 15px;
+    border-radius: 20px;
+    padding-right: 15px;
+    flex-direction: column;
+    padding-bottom: 15px;
+  }
+  .create-new-case1-case-info {
+    color: rgb(0, 0, 0);
+    font-family: "PT Sans";
+    font-weight: 700;
+    padding-bottom: 15px;
+  }
+  .create-new-case1-case-info1 {
+    width: 100%;
+    height: 156px;
+    display: flex;
+    align-items: flex-start;
+    border-radius: 0px;
+  }
+  .create-new-case1-container03 {
+    flex: 0 0 auto;
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-self: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+  }
+  .create-new-case1-case-title {
+    color: rgb(142, 142, 142);
+    font-family: 'Montserrat', sans-serif;
+  }
+  .create-new-case1-input-case-title {
+    font-family: 'Montserrat', sans-serif;
+    width: 98%;
+    padding: 5px;
+    align-self: flex-start;
+    margin-top: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-bottom: 15px;
+  }
+  .create-new-case1-container04 {
+    width: 100%;
+    height: 68px;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: row;
+    padding-bottom: 15px;
+    justify-content: flex-start;
+  }
+  .create-new-case1-container05 {
+    flex: 0 0 auto;
+    width: 25%;
+    height: 68px;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+  .create-new-case1-case-type {
+    color: rgb(142, 142, 142);
+    font-family: 'Montserrat', sans-serif;
+  }
+  .create-new-case1-textinput {
+    font-family: 'Montserrat', sans-serif;
+    width: 85%;
+    padding: 5px;
+    margin-top: 5px;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  .create-new-case1-container06 {
+    flex: 0 0 auto;
+    width: 25%;
+    height: 68px;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+  .create-new-case1-case-status {
+    color: rgb(142, 142, 142);
+    font-family: 'Montserrat', sans-serif;
+  }
+  .create-new-case1-textinput1 {
+    font-family: 'Montserrat', sans-serif;
+    width: 85%;
+    padding: 5px;
+    margin-top: 5px;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  .create-new-case1-container07 {
+    flex: 0 0 auto;
+    width: 25%;
+    height: 68px;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+  .create-new-case1-priority {
+    color: rgb(142, 142, 142);
+    font-family: 'Montserrat', sans-serif;
+  }
+  .create-new-case1-textinput2 {
+    font-family: 'Montserrat', sans-serif;
+    width: 85%;
+    padding: 5px;
+    margin-top: 5px;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  .create-new-case1-container08 {
+    flex: 0 0 auto;
+    width: 25%;
+    height: 68px;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+  .create-new-case1-total-billed-hour {
+    color: rgb(142, 142, 142);
+    font-family: 'Montserrat', sans-serif;
+  }
+  .create-new-case1-textinput3 {
+    font-family: 'Montserrat', sans-serif;
+    width: 85%;
+    padding: 5px;
+    margin-top: 5px;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  .create-new-case1-container09 {
+    flex: 0 0 auto;
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .create-new-case1-case-description {
+    color: rgb(142, 142, 142);
+    align-self: flex-start;
+    font-family: 'Montserrat', sans-serif;
+  }
+  .create-new-case1-textarea {
+    font-family: 'Montserrat', sans-serif;
+    width: 100%;
+    height: 120px;
+    align-self: flex-start;
+    padding: 5px;
+    margin-top: 5px;
+    margin-left: 10px;
+    margin-right: 20px;
+    margin-bottom: 5px;
+  }
+  .create-new-case1-assign-client {
+    flex: 0 0 auto;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+  }
+  .create-new-case1-assign-client1 {
+    flex: 0 0 auto;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .create-new-case1-assign-client2 {
+    color: rgb(0, 0, 0);
+    align-self: flex-start;
+    margin-top: 15px;
+    font-family: "PT Sans";
+    font-weight: 700;
+  }
+  .create-new-case1-client-header {
+    width: 100%;
+    height: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+  }
+  .create-new-case1-container10 {
+    flex: 0 0 auto;
+    width: 33px;
+    height: 100%;
+    display: flex;
+    align-items: flex-start;
+  }
+  .create-new-case1-container11 {
+    flex: 0 0 auto;
+    width: 60px;
+    height: 100%;
+    display: flex;
+    align-items: flex-start;
+  }
+  .create-new-case1-client-rows {
+    flex: 0 0 auto;
+    width: 100%;
+    height: 50px;
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: flex-start;
+  }
+  .create-new-case1-assign-staff {
+    flex: 0 0 auto;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+  }
+  .create-new-case1-assign-staff1 {
+    flex: 0 0 auto;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .create-new-case1-assign-staff2 {
+    color: rgb(0, 0, 0);
+    align-self: flex-start;
+    margin-top: 15px;
+    font-family: "PT Sans";
+    font-weight: 700;
+  }
+  .create-new-case1-staff-header {
+    width: 100%;
+    height: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+  }
+  .create-new-case1-container12 {
+    flex: 0 0 auto;
+    width: 33px;
+    height: 100%;
+    display: flex;
+    align-items: flex-start;
+  }
+  .create-new-case1-container13 {
+    flex: 0 0 auto;
+    width: 60px;
+    height: 100%;
+    display: flex;
+    align-items: flex-start;
+  }
+  .create-new-case1-container14 {
+    width: 533px;
+    height: 62px;
+    display: flex;
+    align-self: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    align-items: center;
+    justify-content: center;
+  }
+  .create-new-case1-button {
+    font-family: 'Montserrat', sans-serif;
+    width: 150px;
+    height: 40px;
+    box-shadow: 0px 5px 10px 0px #d4d4d4;
+    border-width: 0px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-right: 50px;
+    border-radius: 8px;
+  }
+  .create-new-case1-button1 {
+    font-family: 'Montserrat', sans-serif;
+    color: #ffffff;
+    width: 150px;
+    height: 40px;
+    box-shadow: 0px 5px 10px 0px #d4d4d4;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 50px;
+    border-width: 0px;
+    border-radius: 8px;
+    background-color: #1c277e;
+  }
+  
