@@ -1,0 +1,115 @@
+/* To make the container holding the charts and calendar at the center of the webpage */
+#appointment-mainContainer {
+  margin-left: 15%;
+  padding: 0px 50px;
+  padding-top: 1rem;
+}
+
+
+/* To make the cursor to become pointer when hovering over the FullCalendar event */
+.fc-event{
+  cursor: pointer;
+}
+
+
+/* To make the an event in the calendar list to become transparent */
+.fc-event-transparent{
+  color: rgba(0,0,0,0.3);
+}
+
+
+/* To make the now indicator line's weight greator */
+.fc .fc-timegrid-now-indicator-line {
+  border-width: 2.5px 0 0;
+}
+
+
+/* To make the button background color to dark blue and has shadow effect */
+.save-button, #appointment-newAppointmentButton{
+  background-color: #1C277E;
+  border-color: #1C277E;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+
+/* The style for save button when it is disabled */
+.save-button:disabled{
+  background-color: #7B6EA4;
+  border-color: #7B6EA4;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+
+/* To make the button font color to dark blue, thicker font and shadow effect */
+.close-button{
+  color: #1C277E;
+  font-weight: 500;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+
+/* To add shadow to the button */
+.shadow{
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+
+/* Set the color of tooltip */
+.event-tooltip{
+  --bs-tooltip-bg: #1C277E;
+  --bs-tooltip-color: white;
+  --bs-tooltip-opacity: 1;
+}
+
+
+/* Make the disabled date become light grey color in date picker */
+.datepicker-dropdown table tr td.disabled,
+.datepicker-dropdown table tr td.disabled:hover {
+  color: rgba(153, 153, 153, 0.5); /* Set the text color for disabled dates */
+}
+
+
+/* 
+#appointment-loadingOverlay {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(255, 255, 255, 0.8);
+  justify-content: center;
+  align-items: center;
+  z-index: 1050;
+  opacity: 0;
+  transition: opacity 0.5s ease-in-out;
+}
+
+
+/* To show the overlay when adding the show class, hide it when remove the class
+#appointment-loadingOverlay.show{
+  display: flex;
+  opacity: 1;
+}
+
+
+/* The size of the spinner
+#appointment-loadingOverlay .spinner-border {
+  width: 3rem;
+  height: 3rem;
+}*/
+
+
+/* To set the style of the hiding alert */
+.alert{
+  display: none;
+  opacity: 0;
+  transition: opacity 0.1s ease-in-out;
+}
+
+
+/* To show the alert when adding the class */
+.alert.show{
+  display: block;
+  opacity: 1;
+}
