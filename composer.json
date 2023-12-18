@@ -1,0 +1,17 @@
+{
+    "name": "derekgan/case-ace_frontend",
+    "autoload": {
+        "psr-4": {
+            "Derekgan\\CaseAceFrontend\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Derek Gan Kaa Kheng",
+            "email": "derekgankaakheng@gmail.com"
+        }
+    ],
+    "require": {
+        "vlucas/phpdotenv": "^5.6"
+    }
+}
