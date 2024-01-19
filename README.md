@@ -112,7 +112,7 @@ Figure 1 shows the User Modeling Diagram for CaseAce. This diagram distinguishes
 <br>
 <i>Figure 9: Web application architecture diagram</i>
 </p>
-Figure 4.5.1 shows the web application architecture design for “CaseAce”. The client will connect to Internet and access the application layer via their browsers. The application layer includes the web server to store the front-end files and the application server to store the back-end application to hide the business logic behind the system. For web server, we will host our front-end files on Vercel. For application server, we will host our back-end files on Heroku.<br><br>
+Figure 9 shows the web application architecture design for “CaseAce”. The client will connect to Internet and access the application layer via their browsers. The application layer includes the web server to store the front-end files and the application server to store the back-end application to hide the business logic behind the system. For web server, we will host our front-end files on Vercel. For application server, we will host our back-end files on Heroku.<br><br>
 
 The application layer will communicate with the database server to retrieve and save data to the database. The database we used is MongoDB to store data, Cloudinary to store media files like documents, photos, videos, etc.
 
@@ -168,11 +168,11 @@ This part provides a full explanation of the system's visual components as well 
 
 2.  **Icons**
     <p align="center">
-    <img src="readme-assets/14 The iOS16 Glyth icons.png" alt="the ios16 glyth icons"/>
+    <img src="readme-assets/14 The iOS16 Glyph icons.png" alt="the iOS16 Glyph icons"/>
     <br>
-    <i>Figure 14: The ios16 glyth icons</i>
+    <i>Figure 14: The iOS16 Glyph icons</i>
     </p>
-    Icons8.com iOS 16 Glyth icons are shown in Figure 5.1.2.2. The system uses these icons for consistency, readability, and simplicity. These icons are chosen for their simple but elegant design which conveys formality and professionalism.
+    Icons8.com iOS 16 Glyph icons are shown in Figure 14. The system uses these icons for consistency, readability, and simplicity. These icons are chosen for their simple but elegant design which conveys formality and professionalism.
 
 ### System Module Overview
 The system, CaseAce contained of 5 separated modules to make the management tasks in client law firm much more efficient and effective. Each group member will develop these modules. Each module serves different use cases and has different features for partners and associates (admins), paralegals (law firm staff), and clients. 
@@ -190,22 +190,22 @@ This module helps admins and law firms manage client relationships. Details in t
     - **Manage clients’ information:** This system stores client contacts information and cases in a structured database. Law firm admins can easily view and update details in the dashboard.
     - **Check Client Interactions and Cases History:** This system stores clients' interactions, active status, and case history in a timeline so admin can easily review case status and progress.
     - **View Clients’ Satisfaction and Rating:** This system will ask clients to rate law firm services. Ratings are displayed on the admin dashboard.
-2.  **Case Management Module:**
+2.  **Case Management Module:**<br>
 This module mainly is for partners (admins) to assign suitable lawyer(s) and paralegals(s) to effectively handle certain client’s cases. The detailed features in this module are:
     - **Create Cases, Edit Cases Details:** Partners in law firm can create cases for each client case, and they are able to assign manpower to handle the case. Associates and partners both will be able to edit the case details.
     - **View Cases Details:** All users in the system can view the case details in their respective sites.
-3.  **Document Management Module:**
+3.  **Document Management Module:**<br>
 This module mainly is for system users to handle the documents uploaded or requested in each of their cases. The detailed features in this module are:
     - **Upload, Store and Request Documents:** System users can upload the documents into the system in respect of each case. The documents will be stored securely in the cloud storage online. Other than that, law firm can also request documents from their clients if they needed.
     - **View and Download Documents:** System users can view and download the desired documents in their case.
     - **Integration with Case Management:**  Ensures the seamless and streamlined workflow between document and case management.
-4.   **Task Management Module:**
+4.   **Task Management Module:**<br>
 This module mainly is for admins and paralegals to effectively manage the task distribution 
 processes. The detailed features in this module are:
         - **Create, Assign, and Prioritize Task:** Admins can create the tasks, assign it to suitable staffs, and the staffs who received the task can prioritize the tasks.
         - **Deadline Tracking and Reminders:** System will send reminders and help staff to track their task if their tasks are close to deadlines or overdue.
         - **Monitor Progress:** System users can monitor the progress of completed and incomplete tasks in their respective dashboards.
-5.   Appointment Management Module
+5.   **Appointment Management Module:**<br>
 This module mainly is for staffs to focus on scheduling and organizing appointments. As this 
 contributes heavily to effective client engagement. The detailed features in this module are: 
         - **Appointment Scheduling and Calendar Integration:** Seamless scheduling and 
@@ -217,10 +217,22 @@ contributes heavily to effective client engagement. The detailed features in thi
         - **Availability and Workload Tracking:** Monitoring the availability and workload 
         of legal professionals to optimize scheduling.
 
-## Reference
-Aguilera, A. (2023, November 9). *Law practice management software: Ultimate Guide.* MyCase. https://www.mycase.com/blog/legal-case-management/law-practice-management-ultimate-guide/<br>
-Issacharoff, D. (2022, January 23). *20 key principles of Effective Web Design (2022)*. Elementor. https://elementor.com/blog/principles-of-website-design/<br>
-McCuan, J. (2022, September 16). *What is task management? definitions & examples: Airtable 
-blog.* For The Record. https://blog.airtable.com/what-is-task-management/#:~:text=Task%20management%20is%20the%20practice,change%20filter%2C”%20etc).<br>
-Shanaka, A. (2022, May 3). *What is system modeling and UML?*. Medium. https://medium.com/weekly-webtips/what-is-system-modeling-and-uml-441ac1d1f1ee <br>
-User flow diagram — what it is, why it’s important, and how to create one. (n.d.). https://business.adobe.com/blog/basics/how-to-make-a-user-flow-diagram
+## References
+1. Aguilera, A. (2023, November 9). *Law practice management software: Ultimate Guide.* MyCase. https://www.mycase.com/blog/legal-case-management/law-practice-management-ultimate-guide/
+2. Issacharoff, D. (2022, January 23). *20 key principles of Effective Web Design (2022)*. Elementor. https://elementor.com/blog/principles-of-website-design/<br>
+3. McCuan, J. (2022, September 16). *What is task management? definitions & examples: Airtable blog.* For The Record. https://blog.airtable.com/what-is-task-management/.<br>
+4. Shanaka, A. (2022, May 3). *What is system modeling and UML?*. Medium. https://medium.com/weekly-webtips/what-is-system-modeling-and-uml-441ac1d1f1ee <br>
+5. User flow diagram — what it is, why it’s important, and how to create one. (n.d.). https://business.adobe.com/blog/basics/how-to-make-a-user-flow-diagram
+
+## Appendices
+<p align="center">
+<img src="readme-assets/16 Small portion of CaseAce prototype.png" alt="small portion of CaseAce prototype"/>
+<br>
+<i>Figure 16: Small portion of CaseAce prototype</i>
+</p>
+
+<p align="center">
+<img src="readme-assets/17 iOS16 Glyph icons used in CaseAce, from Icons8.com.png" alt="iOS16 Glyph icons used in CaseAce, from Icons8.com"/>
+<br>
+<i>Figure 17: iOS16 Glyph icons used in CaseAce, from Icons8.com</i>
+</p>
